@@ -4,53 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Новости</title>
+    <link rel="stylesheet" href="../style/styles.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RY06WW7XMH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RY06WW7XMH');
+    </script>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RY06WW7XMH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RY06WW7XMH');
-</script>
 <body>
-    <div id="header">Хэдер</div>
-    
-    <div id="menu">
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="practices.html">Практики</a></li>
-            <li><a href="goods.html">Товары</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-    </div>
-    
-    <div id="content">
-        <div class="news-item">
-            <h2>Запуск нового проекта</h2>
-            <p><strong>Дата:</strong> 06.10.2025 | <strong>Автор:</strong> Глущенко Е.И.</p>
-            <p>Мы рады сообщить о запуске нового проекта в сфере веб-разработки. 
-            Проект направлен на создание современных и адаптивных интерфейсов 
-            для образовательных платформ.</p>
+    <div class="page-container">
+        <div class="header">Хэдер</div>
+        
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">Новости</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="practices.html">Практики</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="goods.html">Товары</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">Контакты</a>
+                </li>
+            </ul>
         </div>
         
-        <div class="news-item">
-            <h2>Обновление практических заданий</h2>
-            <p><strong>Дата:</strong> 20.01.2024 | <strong>Автор:</strong> Петрова М.С.</p>
-            <p>Добавлены новые практические задания по базам данных и фронтенд-разработке. 
-            Студенты могут ознакомиться с материалами в соответствующем разделе.</p>
+        <div class="content">
+            <div class="news-container">
+                <div class="news-item">
+                    <h2 class="news-title">Запуск нового проекта</h2>
+                    <p class="news-meta"><strong>Дата:</strong> 06.10.2025 | <strong>Автор:</strong> Глущенко Е.И.</p>
+                    <p class="news-text">Мы рады сообщить о запуске нового проекта в сфере веб-разработки. 
+                    Проект направлен на создание современных и адаптивных интерфейсов 
+                    для образовательных платформ.</p>
+                </div>
+                
+                <div class="news-item">
+                    <h2 class="news-title">Обновление практических заданий</h2>
+                    <p class="news-meta"><strong>Дата:</strong> 20.01.2024 | <strong>Автор:</strong> Петрова М.С.</p>
+                    <p class="news-text">Добавлены новые практические задания по базам данных и фронтенд-разработке. 
+                    Студенты могут ознакомиться с материалами в соответствующем разделе.</p>
+                </div>
+                
+                <div class="news-item">
+                    <h2 class="news-title">Итоги семестра</h2>
+                    <p class="news-meta"><strong>Дата:</strong> 15.01.2023 | <strong>Автор:</strong> Сидоров Д.И.</p>
+                    <p class="news-text">Подведены итоги первого семестра 2025-2026 учебного года. 
+                    Лучшие студенты будут награждены грамотами и дополнительными баллами.</p>
+                </div>
+            </div>
         </div>
         
-        <div class="news-item">
-            <h2>Итоги семестра</h2>
-            <p><strong>Дата:</strong> 15.01.2023 | <strong>Автор:</strong> Сидоров Д.И.</p>
-            <p>Подведены итоги первого семестра 2025-2026 учебного года. 
-            Лучшие студенты будут награждены грамотами и дополнительными баллами.</p>
-        </div>
+        <div class="footer">Футер</div>
     </div>
-    
-    <div id="footer">Футер</div>
 </body>
 </html>

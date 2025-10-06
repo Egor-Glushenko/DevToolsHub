@@ -4,77 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Практические задания</title>
+    <link rel="stylesheet" href="../style/styles.css">
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RY06WW7XMH');
+    </script>
 </head>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RY06WW7XMH');
-</script>
 <body>
-    <div id="header">Хэдер</div>
-    
-    <div id="menu">
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="practices.html">Практики</a></li>
-            <li><a href="goods.html">Товары</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+    <div class="page-container">
+        <div class="header">Хэдер</div>
+        
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">Новости</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="practices.html">Практики</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="goods.html">Товары</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <div class="practices-container">
+                <div class="practice-item">
+                    <h2 class="practice-title">Практика №1.1 - Анализ предметной области</h2>
+                    <p class="practice-meta"><strong>Дисциплина:</strong> Базы данных для индустриальных задач</p>
+                    <p class="practice-meta"><strong>Срок сдачи:</strong> 15.02.2024</p>
+                    <p class="practice-description">Определение сущностей и атрибутов предметной области. 
+                    Создание таблиц описания сущностей и заполнение тестовыми данными.</p>
+                </div>
+                
+                <div class="practice-item">
+                    <h2 class="practice-title">Практика №2.1 - Разработка базы данных в PostgreSQL</h2>
+                    <p class="practice-meta"><strong>Дисциплина:</strong> Базы данных для индустриальных задач</p>
+                    <p class="practice-meta"><strong>Срок сдачи:</strong> 01.03.2024</p>
+                    <p class="practice-description">Создание базы данных в СУБД PostgreSQL. Команда CREATE. 
+                    Создание 8 таблиц с использованием инструмента psql.</p>
+                </div>
+                
+                <div class="practice-item">
+                    <h2 class="practice-title">Практика №2.2 - Команда INSERT INTO</h2>
+                    <p class="practice-meta"><strong>Дисциплина:</strong> Базы данных для индустриальных задач</p>
+                    <p class="practice-meta"><strong>Срок сдачи:</strong> 10.03.2024</p>
+                    <p class="practice-description">Добавление новых данных в таблицы. Заполнение таблиц тестовыми данными 
+                    с использованием SQL-команды INSERT.</p>
+                </div>
+                
+                <div class="practice-item">
+                    <h2 class="practice-title">Практика №3 - Модификация структуры таблиц</h2>
+                    <p class="practice-meta"><strong>Дисциплина:</strong> Базы данных для индустриальных задач</p>
+                    <p class="practice-meta"><strong>Срок сдачи:</strong> 25.03.2024</p>
+                    <p class="practice-description">Команда ALTER. Добавление внешних ключей, ограничений, 
+                    изменение типов данных столбцов и настройка ссылочной целостности.</p>
+                </div>
+                
+                <div class="practice-item">
+                    <h2 class="practice-title">Веб-разработка - Создание многостраничного сайта</h2>
+                    <p class="practice-meta"><strong>Дисциплина:</strong> Веб-технологии</p>
+                    <p class="practice-meta"><strong>Срок сдачи:</strong> 05.04.2024</p>
+                    <p class="practice-description">Разработка многостраничного сайта с использованием HTML. 
+                    Создание страниц: главная, новости, практики, товары, контакты.</p>
+                </div>
+                
+                <div class="practice-item">
+                    <h2 class="practice-title">Линейная алгебра - Расчетные задания</h2>
+                    <p class="practice-meta"><strong>Дисциплина:</strong> Линейная алгебра и аналитическая геометрия</p>
+                    <p class="practice-meta"><strong>Срок сдачи:</strong> 20.04.2024</p>
+                    <p class="practice-description">Решение задач по линейной алгебре: линейная независимость векторов, 
+                    базис линейного пространства, вычисление интегралов.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">Футер</div>
     </div>
-    
-    <div id="content">
-        <div class="practice-item">
-            <h2>Практика №1.1 - Анализ предметной области</h2>
-            <p><strong>Дисциплина:</strong> Базы данных для индустриальных задач</p>
-            <p><strong>Срок сдачи:</strong> 15.02.2024</p>
-            <p>Определение сущностей и атрибутов предметной области. 
-            Создание таблиц описания сущностей и заполнение тестовыми данными.</p>
-        </div>
-        
-        <div class="practice-item">
-            <h2>Практика №2.1 - Разработка базы данных в PostgreSQL</h2>
-            <p><strong>Дисциплина:</strong> Базы данных для индустриальных задач</p>
-            <p><strong>Срок сдачи:</strong> 01.03.2024</p>
-            <p>Создание базы данных в СУБД PostgreSQL. Команда CREATE. 
-            Создание 8 таблиц с использованием инструмента psql.</p>
-        </div>
-        
-        <div class="practice-item">
-            <h2>Практика №2.2 - Команда INSERT INTO</h2>
-            <p><strong>Дисциплина:</strong> Базы данных для индустриальных задач</p>
-            <p><strong>Срок сдачи:</strong> 10.03.2024</p>
-            <p>Добавление новых данных в таблицы. Заполнение таблиц тестовыми данными 
-            с использованием SQL-команды INSERT.</p>
-        </div>
-        
-        <div class="practice-item">
-            <h2>Практика №3 - Модификация структуры таблиц</h2>
-            <p><strong>Дисциплина:</strong> Базы данных для индустриальных задач</p>
-            <p><strong>Срок сдачи:</strong> 25.03.2024</p>
-            <p>Команда ALTER. Добавление внешних ключей, ограничений, 
-            изменение типов данных столбцов и настройка ссылочной целостности.</p>
-        </div>
-        
-        <div class="practice-item">
-            <h2>Веб-разработка - Создание многостраничного сайта</h2>
-            <p><strong>Дисциплина:</strong> Веб-технологии</p>
-            <p><strong>Срок сдачи:</strong> 05.04.2024</p>
-            <p>Разработка многостраничного сайта с использованием HTML. 
-            Создание страниц: главная, новости, практики, товары, контакты.</p>
-        </div>
-        
-        <div class="practice-item">
-            <h2>Линейная алгебра - Расчетные задания</h2>
-            <p><strong>Дисциплина:</strong> Линейная алгебра и аналитическая геометрия</p>
-            <p><strong>Срок сдачи:</strong> 20.04.2024</p>
-            <p>Решение задач по линейной алгебре: линейная независимость векторов, 
-            базис линейного пространства, вычисление интегралов.</p>
-        </div>
-    </div>
-    
-    <div id="footer">Футер</div>
 </body>
 </html>
