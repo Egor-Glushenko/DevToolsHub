@@ -4,67 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Товары</title>
+    <link rel="stylesheet" href="../style/styles.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RY06WW7XMH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RY06WW7XMH');
+    </script>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RY06WW7XMH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RY06WW7XMH');
-</script>
 <body>
-    <div id="header">Хэдер</div>
-    
-    <div id="menu">
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="practices.html">Практики</a></li>
-            <li><a href="goods.html">Товары</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+    <div class="page-container">
+        <div class="header">Хэдер</div>
+        
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">Новости</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="practices.html">Практики</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="goods.html">Товары</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <div class="products-grid">
+                <div class="product-card">
+                    <img class="product-image" src="../images/product1.jpg" alt="Ноутбук">
+                    <h3 class="product-title">Ноутбук игровой</h3>
+                    <p class="product-price">Цена: 85 000 руб.</p>
+                </div>
+                
+                <div class="product-card">
+                    <img class="product-image" src="../images/product2.jpg" alt="Смартфон">
+                    <h3 class="product-title">Смартфон</h3>
+                    <p class="product-price">Цена: 45 000 руб.</p>
+                </div>
+                
+                <div class="product-card">
+                    <img class="product-image" src="../images/product3.jpg" alt="Наушники">
+                    <h3 class="product-title">Темный принц</h3>
+                    <p class="product-price">Цена: 12 000 руб.</p>
+                </div>
+                
+                <div class="product-card">
+                    <img class="product-image" src="../images/product4.jpg" alt="Планшет">
+                    <h3 class="product-title">Лабуба</h3>
+                    <p class="product-price">Цена: 35 000 руб.</p>
+                </div>
+                
+                <div class="product-card">
+                    <img class="product-image" src="../images/product5.jpg" alt="Клавиатура">
+                    <h3 class="product-title">БМВ 5 е39</h3>
+                    <p class="product-price">Цена: 800 000 руб.</p>
+                </div>
+                
+                <div class="product-card">
+                    <img class="product-image" src="../images/product6.jpg" alt="Монитор">
+                    <h3 class="product-title">Макан</h3>
+                    <p class="product-price">Цена: в добрые руки бесплатно</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">Футер</div>
     </div>
-    
-    <div id="content">
-        <div class="product-card">
-            <img src="../images/product1.jpg" alt="Ноутбук" width="200" height="150">
-            <h3>Ноутбук игровой</h3>
-            <p>Цена: 85 000 руб.</p>
-        </div>
-        
-        <div class="product-card">
-            <img src="../images/product2.jpg" alt="Смартфон" width="200" height="150">
-            <h3>Смартфон</h3>
-            <p>Цена: 45 000 руб.</p>
-        </div>
-        
-        <div class="product-card">
-            <img src="../images/product3.jpg" alt="Наушники" width="200" height="150">
-            <h3>Темный принц</h3>
-            <p>Цена: 12 000 руб.</p>
-        </div>
-        
-        <div class="product-card">
-            <img src="../images/product4.jpg" alt="Планшет" width="200" height="150">
-            <h3>Лабуба</h3>
-            <p>Цена: 35 000 руб.</p>
-        </div>
-        
-        <div class="product-card">
-            <img src="../images/product5.jpg" alt="Клавиатура" width="200" height="150">
-            <h3>БМВ 5 е39</h3>
-            <p>Цена: 800 000 руб.</p>
-        </div>
-        
-        <div class="product-card">
-            <img src="../images/product6.jpg" alt="Монитор" width="200" height="150">
-            <h3>макан</h3>
-            <p>Цена: в добрые руки бесплатно</p>
-        </div>
-    </div>
-    
-    <div id="footer">Футер</div>
 </body>
 </html>
